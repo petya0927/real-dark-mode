@@ -10,6 +10,11 @@ interface RealDarkModeOptions {
    * */
   size?: number;
   /**
+   * The falloff from the outer circle to the inner circle
+   * @default 0.5
+   * */
+   falloff?: number;
+  /**
    * The opacity of the spotlight
    * @default 0.95
    * */
@@ -27,7 +32,7 @@ function mouseMove(event: MouseEvent, options?: RealDarkModeOptions) {
   if (!spotlight) return;
 
   spotlight.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent ${
-    options?.size / 2 || 50
+    options?.size * options?.falloff || 50
   }px, ${options?.color || "#000000"} ${options?.size || 100}px)`;
 }
 
