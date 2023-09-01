@@ -16,6 +16,8 @@ import { realDarkMode } from "real-dark-mode";
 realDarkMode();
 ```
 
+When you call the `realDarkMode` function, it will start the dark mode effect. To stop it, call the function again. The effect will stop if the user scrolls.
+
 ### Options
 
 | Option  | Type   | Default | Description                                                                 |
@@ -33,6 +35,8 @@ realDarkMode({
   opacity: 0.95,
 });
 ```
+
+The package also exports a the realDarkModeOptions interface to deeper typescript integration.
 
 ## Contributing
 
