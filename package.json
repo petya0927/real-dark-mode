@@ -1,6 +1,6 @@
 {
   "name": "real-dark-mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is an npm package to create the real dark mode experience on your website.",
   "keywords": [
     "dark",
