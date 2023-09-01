@@ -24,6 +24,7 @@ When you call the `realDarkMode` function, it will start the dark mode effect. T
 | ------- | ------ | ------- | --------------------------------------------------------------------------- |
 | color   | string | #000000 | The color of the backdrop. Can be any valid CSS color.                      |
 | size    | number | 100     | The size of the spotlight in pixels.                                        |
+| falloff | number | 0.5     | The difference of the inner circle's size commpared to the outer one.       |
 | opacity | number | 0.95    | The opacity of the spotlight. Must be a number between 0 and 1 (inclusive). |
 
 ```javascript
@@ -32,6 +33,7 @@ import { realDarkMode } from "real-dark-mode";
 realDarkMode({
   color: "#000000",
   size: 100,
+  falloff: 0.5,
   opacity: 0.95,
 });
 ```
