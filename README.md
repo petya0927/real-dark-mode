@@ -38,7 +38,7 @@ realDarkMode({
 });
 ```
 
-The package also exports a the realDarkModeOptions interface to deeper typescript integration.
+The package also exports a RealDarkModeOptions interface to deeper typescript integration.
 
 ## Contributing
 
@@ -46,4 +46,4 @@ Pull requests are welcome. For changes, please open an issue first to discuss wh
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/petya0927/real-dark-mode/blob/main/LICENSE)
