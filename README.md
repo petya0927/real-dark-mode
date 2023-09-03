@@ -2,6 +2,8 @@
 
 A simple npm package to create the real dark mode experience on your website. It creates a spotlight effect on the page following your mouse, making the rest of the page darker.
 
+[Demo on Vercel](https://real-dark-mode-demo.vercel.app/)
+
 ## Installation
 
 ```bash
