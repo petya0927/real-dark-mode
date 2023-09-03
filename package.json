@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/petya0927/real-dark-mode/issues"
   },
-  "homepage": "https://github.com/petya0927/real-dark-mode#readme",
+  "homepage": "https://real-dark-mode-demo.vercel.app/",
   "devDependencies": {
     "typescript": "^5.2.2"
   },
