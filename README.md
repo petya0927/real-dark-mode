@@ -10,16 +10,6 @@ A simple npm package to create the real dark mode experience on your website. It
 npm install real-dark-mode
 ```
 
-We made a plain javascript implementation for websites that don't use npm. It's available in the [plain-js directory](https://github.com/petya0927/real-dark-mode/tree/main/plain-js) and you can use it by importing the index.js file. It's only available in the repo, not the npm package!
-
-```html
-<script type="module">
-import realDarkMode from "./plain-js/index.js";
-
-realDarkMode();
-</script>
-```
-
 ## Usage
 
 ```javascript
@@ -29,6 +19,16 @@ realDarkMode();
 ```
 
 When you call the `realDarkMode` function, it will start the dark mode effect. To stop it, call the function again. The effect will stop if the user scrolls.
+
+We made a plain javascript implementation for websites that don't use npm. It's available in the [plain-js directory](https://github.com/petya0927/real-dark-mode/tree/main/plain-js) and you can use it by importing the index.js file. It's only available in the repo, not the npm package!
+
+```html
+<script type="module">
+import realDarkMode from "./plain-js/index.js";
+
+realDarkMode();
+</script>
+```
 
 ### Options
 
